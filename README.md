@@ -1,9 +1,11 @@
 ## SF DAT15 Course Repository
 
-Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (12/15/14 - 3/16/15). View student work in the [student repository](https://github.com/justmarkham/DAT4-students).
+Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in San Francisco, DC (6/15/15 - 8/26/15). View student work in the [student repository](https://github.com/justmarkham/DAT4-students).
 
 **Instructors:** Sinan Ozdemir
-**Teaching Assistants:** Liam Foley, Patrick Foley, and Ramesh Sampath.
+
+**Teaching Assistants:** 
+Liam Foley, Patrick Foley, and Ramesh Sampath.
 
 **Office hours:** All will be held in the student center at GA, 225 Bush Street
 
