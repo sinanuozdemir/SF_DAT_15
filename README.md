@@ -35,10 +35,10 @@ Monday | Wednesday
 ### Installation and Setup
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
-* Once you receive an email invitation from [Slack](https://slack.com/), join our "SF_DAT_15 team" and add your photo!
+* Once you receive an email invitation from [Slack](https://slack.com/), join our "SF\_DAT\_15 team" and add your photo!
 
 
-### Class 1: Introduction / Expectations / Git Into
+### Class 1: Introduction / Expectations / Git Intro
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Git overview: ([slides](slides/01_git_github.pdf))
@@ -56,5 +56,5 @@ Monday | Wednesday
 
 * Read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) for a useful look at the different types of data scientists.
 * Look over Data science overview ([slides](slides/01_course_overview.pdf))
-
+* Read about some [Markdown Techniques](http://daringfireball.net/projects/markdown/syntax)
 
