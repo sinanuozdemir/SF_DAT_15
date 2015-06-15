@@ -4,7 +4,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructors:** Sinan Ozdemir
 
-**Teaching Assistants:** 
+**Teaching Assistants:**
 Liam Foley, Patrick Foley, and Ramesh Sampath.
 
 **Office hours:** All will be held in the student center at GA, 225 Bush Street
@@ -24,9 +24,9 @@ Monday | Wednesday
 6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Milestone:** Question and Data Set
 7/6: Linear Regression | 7/8: Logistic Regression
 7/13: Working on a Data Problem | 7/15: Clustering
-7/20: Natural Language Processing| 7/22: Naive Bayes <br>**Milestone:** First Draft Due 
-7/27: Decision Trees | 7/29:Ensembling Techniques <br>**Milestone:** Peer Review Due 
-8/3: Recommendation Engines | 8/5: Databases / MapReduce 
+7/20: Natural Language Processing| 7/22: Naive Bayes <br>**Milestone:** First Draft Due
+7/27: Decision Trees | 7/29:Ensembling Techniques <br>**Milestone:** Peer Review Due
+8/3: Recommendation Engines | 8/5: Databases / MapReduce
 8/10: TBD | 8/17: TBD| 8/12: TBD
 8/17: TBD | 8/17: TBD| 8/19: TBD
 8/24: Projects | 8/26: Projects
@@ -37,6 +37,8 @@ Monday | Wednesday
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
 * Once you receive an email invitation from [Slack](https://slack.com/), join our "SF\_DAT\_15 team" and add your photo!
 
+### Resources
+* [PEP 8 - Style Guide for Python](http://www.python.org/dev/peps/pep-0008)
 
 ### Class 1: Introduction / Expectations / Git Intro
 * Introduction to General Assembly

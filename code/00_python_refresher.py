@@ -25,6 +25,7 @@ nums                        # print the list
 type(nums)                  # check the type: list
 len(nums)                   # check the length: 3
 nums[0]                     # print first element
+nums[-1]                    # prints last element in the list
 nums[2] = 6                 # replace a list element
 nums                        # IT CHANGED
 nums.append(7)              # list 'method' that changes the list
@@ -45,21 +46,36 @@ days_of_the_week = ['Monday', "Tuesday", "Wednesday", "Thursday", "Friday", "Sat
 
 # list slicing
 weekdays = days_of_the_week[0:5]    # weekdays, NOTE doesn't include the index 5
-weekdays[0:2]
+weekdays[0:2]  # Start from Index 0 (first) until Index 2 (not inclusive)
 days_of_the_week[5:]     # weekends
 days_of_the_week[:5]
 days_of_the_week[0:7:3]  # the third element means every second element
+
+###### Tuples ######
+'''
+Tuples are basically lists that can never be changed. You can think of them as light weight lists also.
+Lists can grow and shrink via append, insert and remove.
+Sometimes we don't want our list to be changed. That's what tuples are for.
+If you try to append or remove elements in a tuple, you will get an Traceback error.
+
+Technically, lists are mutable objects and tuples are immutable objects.
+Mutable objects can change (think of mutations), and immutable objects can not change.
+'''
+
+# range
+range(10)  # range function creates a list of 10 items (0 - 9)
+
 
 ##### CONDITIONALS ######
 
 # we will use an if else to implement logic
 x              # remember x?
-if x  > 10 :
-    print "x is more than 10 !"
+if x  > 10:
+    print "x is more than 10 !"  # print adds a new line character to the end
     print "hooray"
 elif x > 100:
     print "x is HUGE"
-    
+
 #as soon as one conditional is satisfied, it stops checking!
 
 
@@ -132,15 +148,15 @@ for element in sinan.items():
 
 for first, second in sinan.items():
     print second
-    
+
 # Let's filter out some days based on an if!
 for day in days_of_the_week: # the "day" variable can really be called anything
     if len(day) <= 6: #will only print days with length of 6 or less
-        print day      
-        
+        print day
+
 ##### LIST COMPREHENSIONS ######
-        
-        
+
+
 import math				# import statement
 
 flubber = [2, 5, 7, 4, 2, 5]
@@ -156,7 +172,7 @@ because it doesn't matter!
 ###### FUNCTIONS #######
 
 def give_me_five():         # function definition ends with colon
-    print "I'm going to give you five"    
+    print "I'm going to give you five"
     return 5                # indentation required for function body
 print "gave you five"
 give_me_five()              # prints the return value (5)
