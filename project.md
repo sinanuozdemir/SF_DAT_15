@@ -44,7 +44,7 @@ If it's not possible or practical to include your entire dataset, you should lin
 ## Milestones
 
 
-### June 29 (Mandatory): Question and Data Set
+### July 1 (Mandatory): Question and Data Set
 
 What is the question you hope to answer? What data are you planning to use to answer that question? What do you know about the data so far? Why did you choose this topic?
 
@@ -55,25 +55,7 @@ Example:
 * I chose this topic because I'm fascinated by the history of the Titanic.
 
 
-### July 20 (Mandatory): Deadline for Topic Changes
-
-What data have you gathered, and how did you gather it? What steps have you taken to explore the data? Which areas of the data have you cleaned, and which areas still need cleaning? What insights have you gained from your exploration? Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)? How might you use modeling to answer your question?
-
-Example:
-
-* I've created visualizations and numeric summaries to explore how survivability differs by passenger characteristic, and it appears that gender and class have a large role in determining survivability.
-* I estimated missing values for age using the titles provided in the Name column.
-* I created features to represent "spouse on board" and "child on board" by further analyzing names.
-* I think that the fare and ticket columns might be useful for predicting survival, but I still need to clean those columns.
-* I analyzed the differences between the training and testing sets, and found that the average fare was slightly higher in the testing set.
-* Since I'm predicting a binary outcome, I plan to use a classification method such as logistic regression to make my predictions.
-
-You may discover during the course of your data exploration that you don't have the data necessary to answer your project question. Talk to your instructors about how to find the data that will help you answer your question!
-
-If you can't find the necessary data and decide that you need to alter your project question, you should submit a description of your revised project no later than this date.
-
-
-### February 18 (Mandatory): First Draft Due
+### July 22 (Mandatory): First Draft Due
 
 Zip up all files relevant to your project, and email them to Sinan. Your peers and instructors will provide feedback, according to [these guidelines](peer_review.md).
 
