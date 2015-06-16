@@ -49,12 +49,11 @@ Monday | Wednesday
 **Homework:**
 
 * Resolve any installation issues before next class.
-* Make sure you have a github profile and repo called "SF_DAT_15"
+* Make sure you have a github profile and created a repo called "SF_DAT_15"
+* Clone the class repo (this one!)
 * Review this [code](code/00_python_refresher.py) for a recap of some Python basics.
 
 **Optional:**
-
-* Create your own Github page
 
 * Read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) for a useful look at the different types of data scientists.
 * Look over Data science overview ([slides](slides/01_course_overview.pdf))
