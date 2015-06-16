@@ -2,7 +2,7 @@
 
 Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/san-francisco/) in San Francisco, DC (6/15/15 - 8/26/15).
 
-**Instructors:** Sinan Ozdemir
+**Instructors:** Sinan Ozdemir (who is awesome)
 
 **Teaching Assistants:**
 Liam Foley, Patrick Foley, and Ramesh Sampath.
