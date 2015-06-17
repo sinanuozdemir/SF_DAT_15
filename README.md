@@ -59,3 +59,22 @@ Monday | Wednesday
 * Look over Data science overview ([slides](slides/01_course_overview.pdf))
 * Read about some [Markdown Techniques](http://daringfireball.net/projects/markdown/syntax)
 
+### Class 2: Python
+* Brief overview of Python environments: Python interpreter, IPython interpreter, Spyder
+* Python quiz ([solution](code/02_python_quiz_solution.py))
+* Working with data in Python
+    * Todays data comes from Nate Silver's blog, [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption)
+    * Reading and writing files in Python ([code](code/02_file_io.py))
+
+**Homework:**
+* [Python exercise](code/02_file_io_homework.py) ([solution](code/02_file_io_homework_solution.py))
+* Read through the [project page](project.md) in detail.
+* Review a few [projects from past Data Science courses](https://github.com/justmarkham/DAT-project-examples) to get a sense of the variety and scope of student projects.
+    * Check for proper setup of Git by running `git clone https://github.com/justmarkham/DAT-project-examples.git`
+
+**Optional:**
+* If you need more practice with Python, review the "Python Overview" section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/5920182), work through some of [Codecademy's Python course](http://www.codecademy.com/en/tracks/python), or work through [Google's Python Class](https://developers.google.com/edu/python/) and its exercises.
+* For more project inspiration, browse the [student projects](http://cs229.stanford.edu/projects2013.html) from Andrew Ng's [Machine Learning course](http://cs229.stanford.edu/) at Stanford.
+
+**Resources:**
+* [Online Python Tutor](http://pythontutor.com/) is useful for visualizing (and debugging) your code.
