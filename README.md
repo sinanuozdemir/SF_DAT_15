@@ -19,7 +19,7 @@ Liam Foley, Patrick Foley, and Ramesh Sampath.
 
 Monday | Wednesday
 --- | ---
-6/15: [Introduction / Expectations / Git Intro](#class-1-introduction--expectations--git-intro) | 6/17: Python
+6/15: [Introduction / Expectations / Git Intro](#class-1-introduction--expectations--git-intro) | 6/17: [Python](#class-2-python)
 6/22: Data Science Workflow / Pandes | 6/24: Pandas
 6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Milestone:** Question and Data Set
 7/6: Linear Regression | 7/8: Logistic Regression
@@ -67,6 +67,7 @@ Monday | Wednesday
     * Todays data comes from Nate Silver's blog, [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption)
     * and also from the [Open Weather Data Project](http://openweathermap.org/) They have a great API!!
     * Reading, writing, and graphon oh my! in Python ([code](code/02_files_and_weather.py))
+* [Lab](code/02_files_and_weather_lab.py) on files and API usage
 
 **Homework:**
 

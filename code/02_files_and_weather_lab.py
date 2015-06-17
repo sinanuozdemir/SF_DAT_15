@@ -1,5 +1,5 @@
 '''
-HOMEWORK: Reading and Writing Files in Python
+Lab: Reading and Writing Files in Python
 '''
 
 '''
