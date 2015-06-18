@@ -78,7 +78,7 @@ Part 3, taking data from the web and graphing it
 '''
 
 import requests # a module for reading the web
-api_endpoint = 'http://api.openweathermap.org/data/2.5/weather/forecast'
+api_endpoint = 'http://api.openweathermap.org/data/2.5/forecast/city'
 params = {}
 params['id'] = '745044'
 params['units'] = 'metric'
@@ -207,6 +207,6 @@ plt.plot(dates, temperatures_normalized, marker='o', linestyle='--', color='r', 
 plt.scatter(temperatures, humidity)
 
 
-# No discernable pattern, huh?...
+# No discernable pattern, or is there?...
 
 

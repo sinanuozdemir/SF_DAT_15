@@ -84,7 +84,7 @@ Create a list of the pressure measurements and plot it against dates
 
 '''
 Part 8
-Make a scatter plot plotting pressure against temperature adn humidity
+Make a scatter plot plotting pressure against temperature and humidity
 '''
 
 
