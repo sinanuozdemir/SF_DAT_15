@@ -64,9 +64,9 @@ Monday | Wednesday
 * Python quiz ([code](code/02_python_quiz.py))
 * Check out some iPython Notebooks!
 * Working with data in Python in Spyder
-    * Todays data comes from Nate Silver's blog, [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption)
+    * Today's data is brought to you by Nate Silver's blog, [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption)
     * and also from the [Open Weather Data Project](http://openweathermap.org/) They have a great API!!
-    * Reading, writing, and graphon oh my! in Python ([code](code/02_files_and_weather.py))
+    * Reading, writing, and graphing oh my! in Python ([code](code/02_files_and_weather.py))
 * [Lab](code/02_files_and_weather_lab.py) on files and API usage
 
 **Homework:**
