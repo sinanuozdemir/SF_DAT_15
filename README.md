@@ -20,7 +20,7 @@ Liam Foley, Patrick Foley, and Ramesh Sampath.
 Monday | Wednesday
 --- | ---
 6/15: [Introduction / Expectations / Git Intro](#class-1-introduction--expectations--git-intro) | 6/17: [Python](#class-2-python)
-6/22: Data Science Workflow / Pandas | 6/24: Pandas
+6/22: [Data Science Workflow / Pandas](#class-3-data-science-workflow-pandas) | 6/24: Pandas
 6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Milestone:** Question and Data Set
 7/6: Linear Regression | 7/8: Logistic Regression
 7/13: Working on a Data Problem | 7/15: Clustering
@@ -83,3 +83,30 @@ Monday | Wednesday
 **Resources:**
 
 * [Online Python Tutor](http://pythontutor.com/) is useful for visualizing (and debugging) your code.
+
+### Class 3: Data Science Workflow / Pandas
+
+**Agenda**
+
+* Slides on the Data Science workflow [here](slides/03_intro_to_ds.pdf)
+	* Data Science Workflow
+* Intro to Pandas walkthrough [here](code/03_pandas.py)
+	* I will give you semi-cleaned data allowing us to work on step 3 of the data science workflow
+	* Pandas is an excellent tool for exploratory data analysis
+	* It allows us to easily manipulate, graph, and visualize basic statistics and elements of our data
+
+**Homework**
+
+* Begin thinking about potential projects that you'd want to work on. Consider the problems discussed in class today (we will see more next time and next Monday as well)
+	* Do you want a predictive model?
+	* Do you want to cluster similar objects (like words or other)?
+
+**Resources:**
+
+* Pandas
+	 * [Split-Apply-Combine](http://i.imgur.com/yjNkiwL.png) pattern
+    * Simple examples of [joins in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/#joining)
+    * Check out this excellent example of [data wrangling and exploration in Pandas](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb)
+	    * For an extra challenge, try copying over the code into your own .py file
+	* To learn more Pandas, review this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
+    * For more on Pandas plotting, read the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
