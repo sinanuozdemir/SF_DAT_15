@@ -236,11 +236,11 @@ MovieLens 100k data:
 
 # read 'u.data' into 'ratings'
 r_cols = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
-ratings = pd.read_table('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/data/master/u.data', header=None, names=r_cols, sep='\t')
+ratings = pd.read_table('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/master/data/u.data', header=None, names=r_cols, sep='\t')
 
 # read 'u.item' into 'movies'
 m_cols = ['movie_id', 'title']
-movies = pd.read_table('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/data/master/u.item', header=None, names=m_cols, sep='|', usecols=[0,1])
+movies = pd.read_table('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/master/data/u.item', header=None, names=m_cols, sep='|', usecols=[0,1])
 
 # merge 'movies' and 'ratings' (inner join on 'movie_id')
 movies.head()
@@ -258,16 +258,6 @@ movie_ratings.title.value_counts()
 
 # for each movie, calculate mean rating
 movie_ratings.groupby('title').rating.mean().order(ascending=False)
-
-# for each movie, count number of ratings and calculate mean rating
-movie_ratings.groupby('title').rating.count()
-movie_ratings.groupby('title').rating.mean()
-movie_stats = movie_ratings.groupby('title').agg({'rating': [np.size, np.mean]})
-movie_stats.head()  # hierarchical index
-
-# limit results to movies with more than 100 ratings
-movie_stats[movie_stats.rating.size > 100].sort_index(by=('rating', 'mean'))
-
 
 
 '''
