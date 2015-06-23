@@ -94,6 +94,8 @@ Monday | Wednesday
 	* I will give you semi-cleaned data allowing us to work on step 3 of the data science workflow
 	* Pandas is an excellent tool for exploratory data analysis
 	* It allows us to easily manipulate, graph, and visualize basic statistics and elements of our data
+	* [Pandas Lab!](code/03_pandas_lab.py)
+
 
 **Homework**
 
