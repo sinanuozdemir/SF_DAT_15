@@ -20,7 +20,7 @@ Liam Foley, Patrick Foley, and Ramesh Sampath (who are all way more awesome)
 Monday | Wednesday
 --- | ---
 6/15: [Introduction / Expectations / Git Intro](#class-1-introduction--expectations--git-intro) | 6/17: [Python](#class-2-python)
-6/22: [Data Science Workflow / Pandas](#class-3-data-science-workflow--pandas) | 6/24: [More Pandas](#class-4-more-pandas)
+6/22: [Data Science Workflow / Pandas](#class-3-data-science-workflow--pandas) | 6/24: [More Pandas](#class-4---more-pandas)
 6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Project Milestone:** Question and Data Set<br> **HW** Homework 1 Due
 7/6: Linear Regression | 7/8: Logistic Regression
 7/13: Working on a Data Problem | 7/15: Clustering
