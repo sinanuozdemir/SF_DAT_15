@@ -79,7 +79,7 @@ Part 3: FIFA GOALS
 
 '''
 
-goals = pd.read_csv('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/master/data/goals.csv')
+goals = pd.read_csv('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/master/data/fifa_goals.csv')
 # removing '+' from minute and turning them into ints
 goals.minute = goals.minute.apply(lambda x: int(x.replace('+','')))
 
