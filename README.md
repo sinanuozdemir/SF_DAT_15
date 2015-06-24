@@ -5,7 +5,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 **Instructors:** Sinan Ozdemir (who is awesome)
 
 **Teaching Assistants:**
-Liam Foley, Patrick Foley, and Ramesh Sampath.
+Liam Foley, Patrick Foley, and Ramesh Sampath (who are all way more awesome)
 
 **Office hours:** All will be held in the student center at GA, 225 Bush Street
 
@@ -20,8 +20,8 @@ Liam Foley, Patrick Foley, and Ramesh Sampath.
 Monday | Wednesday
 --- | ---
 6/15: [Introduction / Expectations / Git Intro](#class-1-introduction--expectations--git-intro) | 6/17: [Python](#class-2-python)
-6/22: [Data Science Workflow / Pandas](#class-3-data-science-workflow--pandas) | 6/24: Pandas
-6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Milestone:** Question and Data Set
+6/22: [Data Science Workflow / Pandas](#class-3-data-science-workflow--pandas) | 6/24: [More Pandas](#class-4-more-pandas)
+6/29: Intro to ML / Numpy / KNN | 7/1: Scikit-learn / Model Evaluation<br>**Project Milestone:** Question and Data Set<br> **HW** Homework 1 Due
 7/6: Linear Regression | 7/8: Logistic Regression
 7/13: Working on a Data Problem | 7/15: Clustering
 7/20: Natural Language Processing| 7/22: Naive Bayes <br>**Milestone:** First Draft Due
@@ -112,3 +112,24 @@ Monday | Wednesday
 	    * For an extra challenge, try copying over the code into your own .py file
 	* To learn more Pandas, review this [three-part tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * For more on Pandas plotting, read the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
+
+    
+    
+### Class 4 - More Pandas
+
+#### Agenda
+* Class code on Pandas [here](code/04_pandas_2.py)
+* We will work with 3 different data sets today:
+	* the UFO dataset (as scraped from the [reporting website](http://www.nuforc.org/webreports.html)	
+	* Fisher's Iris Dataset (as cleaned from a [machine learning repository](https://archive.ics.uci.edu/ml/datasets/Iris)
+	* A dataset of (nearly) every FIFA goal ever scored (as scraped from the website)
+* Pandas Lab! [here](code/04_pandas_2_lab.py)
+	
+	
+####Homework
+* Please review the [readme](hw/HW1-README.md) for the first homework. It is due NEXT Wednesday (7/1/2015)
+* The one-pager for your project is also due. Please see [project guidelines](project.md)
+	
+	
+	
+	
