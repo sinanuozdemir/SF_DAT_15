@@ -209,6 +209,8 @@ ufo['Day'] = ufo['Time'].apply(lambda x:int(x.split('/')[1]))
 ufo['Year'] = ufo['Time'].apply(lambda x:int(x.split('/')[2][:4]))
 
 
+# Plot of sightings per day in 2013
+ufo[ufo.Year==2013].Day.value_counts().sort_index().plot()
 
 
 # Plot the number of sightings over time
@@ -246,7 +248,7 @@ ufo[(ufo.Year==2014) & (ufo.Month == 7)].groupby('Day').City.count().plot(  kind
 # Well maybe it's just 2014?
 
 # Plot multiple plots on the same plot (plots neeed to be in column format)
-ufo_fourth = ufo[(ufo.Year.isin([2011, 2012, 2013, 2014])) & (ufo.Month == '7')]
+ufo_fourth = ufo[(ufo.Year.isin([2011, 2012, 2013, 2014])) & (ufo.Month == 7)]
 ufo_fourth.groupby(['Year', 'Day']).City.count().unstack(0).plot(   kind = 'bar', figsize=(7,9))
 
 
