@@ -1,8 +1,13 @@
 '''
+Move this code into your OWN SF_DAT_15_WORK repo
+
 Please complete each question using 100% python code
 
 If you have any questions, ask a peer or one of the instructors!
 
+When you are done, add, commit, and push up to your repo
+
+This is due 7/1/2015
 '''
 
 
