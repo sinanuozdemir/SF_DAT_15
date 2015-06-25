@@ -23,7 +23,7 @@ ufo = pd.read_csv('https://raw.githubusercontent.com/sinanuozdemir/SF_DAT_15/mas
 
 # 6. Which shape is reported most often?
 
-# 7. Plot number of sights per day in 2014 (days should be in order!)
+# 7. Plot number of sightings per day in 2014 (days should be in order!)
 
 
 
