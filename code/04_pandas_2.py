@@ -190,7 +190,7 @@ ufo[ufo.Shape=='TRIANGLE'].shape[0]
 ''' Fun Stuff '''
 
 # Make a new month column
-ufo['Month'] = ufo['Time'].apply(lambda x:x.split('/')[0])
+ufo['Month'] = ufo['Time'].apply(lambda x:int(x.split('/')[0]))
 
 '''
 the apply function applys the lambda funciton to every element in the Series
@@ -203,10 +203,10 @@ so if we pass in say 9/3/2014 01:22 into the function we would get:
 '''
 
 # similar for day
-ufo['Day'] = ufo['Time'].apply(lambda x:x.split('/')[1])
+ufo['Day'] = ufo['Time'].apply(lambda x:int(x.split('/')[1]))
 
 # for year, I need the [:4] at the end to remove the time
-ufo['Year'] = ufo['Time'].apply(lambda x:x.split('/')[2][:4])
+ufo['Year'] = ufo['Time'].apply(lambda x:int(x.split('/')[2][:4]))
 
 
 
@@ -233,7 +233,7 @@ us_population.plot(x = 'Date', y = 'Population', legend = False)
 
 
 # Plot the sightings in in July 
-ufo[(ufo.Year=='2014') & (ufo.Month == '7')].groupby('Day').City.count().plot(  kind='bar',
+ufo[(ufo.Year==2014) & (ufo.Month == 7)].groupby('Day').City.count().plot(  kind='bar',
                                                         color='b', 
                                                         title='UFO Sightings in July 2014')
                                                         
@@ -246,7 +246,7 @@ ufo[(ufo.Year=='2014') & (ufo.Month == '7')].groupby('Day').City.count().plot(  
 # Well maybe it's just 2014?
 
 # Plot multiple plots on the same plot (plots neeed to be in column format)
-ufo_fourth = ufo[(ufo.Year.isin(['2011', '2012', '2013', '2014'])) & (ufo.Month == '7')]
+ufo_fourth = ufo[(ufo.Year.isin([2011, 2012, 2013, 2014])) & (ufo.Month == '7')]
 ufo_fourth.groupby(['Year', 'Day']).City.count().unstack(0).plot(   kind = 'bar', figsize=(7,9))
 
 
