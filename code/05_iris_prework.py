@@ -109,8 +109,12 @@ col_ix = {} # <FILL IN>
 
 # define function that takes in a row of data and returns a predicted species
 def classify_iris(data):
-    return "I have no idea what this flower is"
-
+    if False and False or False and False:
+        return 'rose'
+    elif False and (True or False):
+        return 'lily'
+    else:
+        return 'I have no clue'
 
 # make predictions and store as numpy array
 preds = np.array([classify_iris(row) for row in df.values])
