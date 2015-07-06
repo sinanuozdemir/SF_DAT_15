@@ -1,4 +1,4 @@
-## Class 10 Homework: Yelp Reviews
+## Class 7 Homework: Yelp Reviews
 
 This assignment uses a small subset of the data from Kaggle's [Yelp Business Rating Prediction](https://www.kaggle.com/c/yelp-recsys-2013) competition.
 
