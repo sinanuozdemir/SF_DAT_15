@@ -4,7 +4,7 @@ This assignment uses a small subset of the data from Kaggle's [Yelp Business Rat
 
 **Description of the data:**
 
-* `yelp.json` is the original format of the file. `yelp.csv` contains the same data, in a more convenient format. Both of the files are in this repo, so there is no need to download the data from the Kaggle website.
+`yelp.csv` contains the Yelp ratings data
 * Each observation in this dataset is a review of a particular business by a particular user.
 * The "stars" column is the number of stars (1 through 5) assigned by the reviewer to the business. (Higher stars is better.)
 * The "cool" column is the number of "cool" votes this particular review received from other Yelp users. There is no limit to how many "cool" votes a review can receive.
@@ -13,7 +13,6 @@ This assignment uses a small subset of the data from Kaggle's [Yelp Business Rat
 **Homework tasks:**
 
 1. Read `yelp.csv` into a DataFrame.
-    * **Alternative:** Construct this DataFrame yourself from `yelp.json`. This involves reading the data into Python, decoding the JSON, converting it to a DataFrame, and adding individual columns for each of the vote types.
 2. Explore the relationship between each of the vote types (cool/useful/funny) and the number of stars.
 3. Define cool/useful/funny as the features, and stars as the response.
 4. Fit a linear regression model and interpret the coefficients. Do the coefficients make intuitive sense to you? Explore the Yelp website to see if you detect similar trends.
