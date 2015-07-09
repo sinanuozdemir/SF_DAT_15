@@ -147,7 +147,7 @@ plt.plot(glass.al, glass.assorted_pred_class, color='red')
 
 # fit a linear regression model and store the class predictions
 from sklearn.linear_model import LogisticRegression
-logreg = LogisticRegression(C=1e9)
+logreg = LogisticRegression()
 feature_cols = ['al']
 X = glass[feature_cols]
 y = glass.assorted
