@@ -215,7 +215,7 @@ Monday | Wednesday
     * This [response](http://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412) to the ban in Nature argues that "decisions that are made earlier in data analysis have a much greater impact on results".
     * Andrew Gelman has a readable [paper](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) in which he argues that "it's easy to find a p < .05 comparison even if nothing is going on, if you look hard enough".
 
-### Class 11: Logistic Regression
+### Class 8: Logistic Regression
 * Logistic regression ([notebook](http://nbviewer.ipython.org/github/sinanuozdemir/SF_DAT_15/blob/master/code/08_logistic_regression.ipynb), [notebook code](code/08_logistic_regression_nb.py))
 * Confusion matrix ([slides](slides/08_confusion_matrix.pdf))
 * Exercise with Titanic data ([instructions](labs/08_titanic.md), [solution](code/08_titanic.py))
