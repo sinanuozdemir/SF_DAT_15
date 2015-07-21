@@ -1,0 +1,31 @@
+# read in tweets data into a dataframe
+
+
+import pandas as pd
+tweets = pd.read_csv('../data/so_many_tweets.csv')
+
+
+# use the textblob module to get the sentiment of each
+# tweet
+
+
+
+# Make a column called day which holds the unique
+# day it was tweeted, e.g. 5/24/2015
+
+
+# For each day, show the number of tweets and
+# the average sentiment
+
+
+# Show a graph of how volume "number of tweets"
+# per day changed over the course of May
+
+
+
+# Show a graph of how sentiment of tweets
+# changed per day over the course of May
+
+
+# Try taking out noise from the text like the 
+# RT, any mentions or links and try again!
