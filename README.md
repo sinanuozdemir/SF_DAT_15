@@ -298,8 +298,12 @@ Today we are going over advanced metrics for classification models and learning 
 
 **Agenda**
 
-* Learn about ROC/AUC curves [here](code/12_confusion_roc.py)
-* Learn the Naive Bayes Classifier [here](code/12_naive_bayes.py)
+* Learn about ROC/AUC curves 
+	* 	Slides [here](slides/12_classification_model_evaluation_metrics.pdf)
+	* 	Code [here](code/12_confusion_roc.py)
+* Learn the Naive Bayes Classifier 
+	* 	Slides [here](slides/12_naive_bayes.pdf)
+	* 	Code [here](code/12_naive_bayes.py)
 	* In the code file above we will create our own spam classifier!
 
 
