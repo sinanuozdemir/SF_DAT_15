@@ -26,7 +26,7 @@ tweets['sentiment'] = tweets.Text.map(stringToSentiment)
 tweets['day'] = tweets.Date.map(lambda x: x[:10])
 
 sent = tweets.groupby('day')['sentiment'].mean()
-volume = tweets.groupby('day')['Status'].mean()
+volume = tweets.groupby('day')['Status'].count()
 
 
 sent.plot()
