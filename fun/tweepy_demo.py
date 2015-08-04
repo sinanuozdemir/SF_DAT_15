@@ -1,5 +1,8 @@
 import tweepy
 
+# PLEASE GET YOUR OWN!!!!!!!!
+#  dev.twitter.com
+
 
 api_key = 'Ftp4IDSOcPJaCdTlxblRMPW05'
 api_secret = '6AIiTKoVC3hChn81o1pRgOlokS0sN8NsQS39TZvLyig8QE1G4k'
