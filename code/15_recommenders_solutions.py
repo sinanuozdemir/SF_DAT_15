@@ -1,6 +1,6 @@
 
 """
-Class 18: Recommendation Engines
+Class 15: Recommendation Engines
 Content based and Collaborative based filtering
 Jaccard Similarity
 Modified KNN Algorithm
