@@ -27,8 +27,8 @@ Monday | Wednesday
 7/20: Natural Language Processing| 7/22: Naive Bayes <br>**Milestone:** First Draft Due
 7/27: Decision Trees | 7/29:Ensembling Techniques 
 8/3: Recommendation Engines<br>**Milestone:** Peer Review Due | 8/5: Databases / MapReduce
-8/10: TBD | 8/17: TBD| 8/12: TBD
-8/17: TBD | 8/17: TBD| 8/19: TBD
+8/10: Dimension Reduction | 8/12: Ensemble Techniques| 8/12: sdsd
+8/17: Web Development with Flask | 8/17: Neural Networks| 8/19: TBD
 8/24: Projects | 8/26: Projects
 
 
@@ -352,6 +352,18 @@ We will look into a slightly more complex model today, the Decision Tree.
 * Slides [slides](slides/16_db_mr.pdf)
 * Lab [code](labs/16_map_reduce.py)
 
-**Resources:**
+### Class 17: Dimension Reduction
+* PCA
+    * [Slides](slides/17_dimension_reduction.pdf)
+    * Code: [PCA and SVD](code/17_pca_iris.py)
+    * Code: [image compression with PCA](code/17_shakira.py) ([original source](http://glowingpython.blogspot.com/2011/07/pca-and-image-compression-with-numpy.html))
 
-Coming soon!!!!
+* Mapreduce
+	* [Slides](slides/09_db_mr)
+    * Code: [PCA and SVD](code/09_map_reduce.py)
+
+*Resources*
+
+* PCA using the iris data set [here](http://scikit-learn.org/0.11/auto_examples/decomposition/plot_pca_iris.html) and with 2 components [here](http://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_vs_lda.html)
+* PCA step by step [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
+* Check out [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/) for our guest speaker's (Nick Kridler) talk on Wednesday
