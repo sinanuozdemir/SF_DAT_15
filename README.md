@@ -353,17 +353,16 @@ We will look into a slightly more complex model today, the Decision Tree.
 * Lab [code](labs/16_map_reduce.py)
 
 ### Class 17: Dimension Reduction
+* Fun with indeed [here](fun/data_science_indeed.py)
 * PCA
     * [Slides](slides/17_dimension_reduction.pdf)
     * Code: [PCA and SVD](code/17_pca_iris.py)
     * Code: [image compression with PCA](code/17_shakira.py) ([original source](http://glowingpython.blogspot.com/2011/07/pca-and-image-compression-with-numpy.html))
 
-* Mapreduce
-	* [Slides](slides/09_db_mr)
-    * Code: [PCA and SVD](code/09_map_reduce.py)
 
 *Resources*
 
+* Some hardcore math in python [here](code/17_pca_svd_class.py)
 * PCA using the iris data set [here](http://scikit-learn.org/0.11/auto_examples/decomposition/plot_pca_iris.html) and with 2 components [here](http://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_vs_lda.html)
 * PCA step by step [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
 * Check out [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/) for our guest speaker's (Nick Kridler) talk on Wednesday
