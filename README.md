@@ -366,3 +366,15 @@ We will look into a slightly more complex model today, the Decision Tree.
 * PCA using the iris data set [here](http://scikit-learn.org/0.11/auto_examples/decomposition/plot_pca_iris.html) and with 2 components [here](http://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_vs_lda.html)
 * PCA step by step [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
 * Check out [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/) for our guest speaker's (Nick Kridler) talk on Wednesday
+
+
+### Class 18: Ensembling
+* Talk from [Nick Kridler](https://www.linkedin.com/pub/nicholas-kridler/2b/a67/376)
+* Ensembling ([IPython notebook](http://nbviewer.ipython.org/github/sinanuozdemir/SF_DAT_15/blob/master/code/18_ensembling.ipynb))
+* BONUS: Regularization ([IPython notebook](http://nbviewer.ipython.org/github/sinanuozdemir/SF_DAT_15/blob/master/code/18_regularization.ipynb))
+	* Bonus advanced sklearn code [here](code/18_advanced_sklearn.py)
+
+**Resources:**
+
+* scikit-learn documentation: [Ensemble Methods](http://scikit-learn.org/stable/modules/ensemble.html)
+* Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
