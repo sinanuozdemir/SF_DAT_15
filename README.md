@@ -378,3 +378,22 @@ We will look into a slightly more complex model today, the Decision Tree.
 
 * scikit-learn documentation: [Ensemble Methods](http://scikit-learn.org/stable/modules/ensemble.html)
 * Quora: [How do random forests work in layman's terms?](http://www.quora.com/How-do-random-forests-work-in-laymans-terms/answer/Edwin-Chen-1)
+
+### Class 19: Web Development
+
+
+* slides [here](slides/19_web_development.pdf)
+* We will be working with the flask app found [here](https://github.com/sinanuozdemir/iris_calculator)
+
+**Resources:**
+
+* MVC Architecture blog [post](http://www.essenceandartifact.com/2012/12/the-essence-of-mvc.html)
+* More on using Flask and Heroku [here](https://devcenter.heroku.com/articles/getting-started-with-python-o) (Note you can ignore the virtual environment stuff, unless you want a challenge!)
+
+
+**Homework**
+
+* Try to deploy your own ML model to Heroku!
+* Read an intro to Neural Networks [here](http://natureofcode.com/book/chapter-10-neural-networks/)
+* And this intro to [SVM](http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf)
+
