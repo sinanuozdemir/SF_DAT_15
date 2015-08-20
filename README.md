@@ -397,3 +397,31 @@ We will look into a slightly more complex model today, the Decision Tree.
 * Read an intro to Neural Networks [here](http://natureofcode.com/book/chapter-10-neural-networks/)
 * And this intro to [SVM](http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf)
 
+
+### Class 20: Neural Networks and SVM
+
+**Agenda**
+
+* slides [here](slides/20_nn_svm.pdf)
+* code [here](code/20_nn_svm.py)
+
+* Lab [here](labs/20_final_lab.md)
+
+**Resources**
+
+* SVM Margins Example [here](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_margin.html)
+* SVM digits was adapted from [here](http://pythonprogramming.net/support-vector-machine-svm-example-tutorial-scikit-learn-python/)
+* [Google Deep Dream: why does it always see dogs?!](http://www.fastcodesign.com/3048941/why-googles-deep-dream-ai-hallucinates-in-dog-faces)
+* [Deep Dream Generator](http://deepdreamgenerator.com/)
+* Most used non-sklearn ANN [PyBrain](http://pybrain.org/)
+* Project time signups [here](https://docs.google.com/spreadsheets/d/15Y2w9ENCVSWja3VDviyz8D33Pef6gxN8Ziu3XUblEJo/edit#gid=0)
+
+
+##Project Info
+
+* Everyone will have a maximum of **15 minutes** to present including Q&A
+* Please sign up for a slot if you haven't done so [here](https://docs.google.com/spreadsheets/d/15Y2w9ENCVSWja3VDviyz8D33Pef6gxN8Ziu3XUblEJo/edit?usp=sharing)
+	* If you don't want to be crunched for time, try going on Monday :)
+	* If you don't sign up by end of class today (Wednesday 8/19) **we will assign you a slot**
+* Final Projects are **mandatory** if you want a certification of completion from General Assembly
+* Remember you must submit both a **presentation** as well as a **write up** (What a write up you never mentioned that!) I did and also it is in the project requirements :)
