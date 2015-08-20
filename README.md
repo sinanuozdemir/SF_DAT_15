@@ -414,6 +414,7 @@ We will look into a slightly more complex model today, the Decision Tree.
 * [Google Deep Dream: why does it always see dogs?!](http://www.fastcodesign.com/3048941/why-googles-deep-dream-ai-hallucinates-in-dog-faces)
 * [Deep Dream Generator](http://deepdreamgenerator.com/)
 * Most used non-sklearn ANN [PyBrain](http://pybrain.org/)
+* Step by Step back propagation [here](http://home.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)
 * Project time signups [here](https://docs.google.com/spreadsheets/d/15Y2w9ENCVSWja3VDviyz8D33Pef6gxN8Ziu3XUblEJo/edit#gid=0)
 
 
